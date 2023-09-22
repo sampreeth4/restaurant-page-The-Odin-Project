@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-size :48px ;
+    font-weight: bold;
+    color: navy;
+    text-align: center;
+    padding-top: 20px;
+    background-color: aqua;
+    padding-bottom: 10px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background-color: blueviolet;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+nav a:hover{
+    border-bottom: 3px solid aqua;
+}
+.about{
+    align-items:center ;
+    text-align: center;
+    /* margin-top: 90px; */
+    padding-top: 90px;
+    padding-bottom: 200px;
+    background-color: navy;}
+.about p{
+    margin-top: 90px;
+    margin-left: 140px;
+    margin-right: 140px;
+    word-spacing: 3px;
+    font-size: 20px;
+    color: beige;
+
+}
+.about h1{
+    color:rgb(236, 196, 78);
+}
+.lobster-thermidor,.ratatouille,.french-one{
+    height: 250px;
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    
+    align-items: center;
+    justify-content: center;
+}
+.first,.second,.third{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 2px solid black;
+}
+.contactDiv h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+}
